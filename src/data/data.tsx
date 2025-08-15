@@ -305,6 +305,10 @@ export const contact: ContactSection = {
       text: 'Danh Cypher',
       href: 'https://github.com/DanhCypher',
     },
+        {
+      type: ContactType.Phone,
+      text: '0392395397',
+    },
   ],
 };
 
