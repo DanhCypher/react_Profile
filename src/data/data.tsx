@@ -40,8 +40,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Danh Cypher - Full Stack Software Engineer',
+  description: "Cùng khám phá hành trình của tôi trong lĩnh vực công nghệ thông tin, từ những ngày đầu học tập đến những dự án thực tế mà tôi đã tham gia.",
 };
 
 /**
