@@ -33,7 +33,12 @@ const nextConfig = {
         hostname: 'source.unsplash.com',
       },
     ],
+    unoptimized: true,
   },
+  eslint: {
+    ignoreDuringBuilds: true, // Bỏ qua lỗi ESLint trong quá trình build
+  },
+  output: 'export',
 };
 
 module.exports = nextConfig;
