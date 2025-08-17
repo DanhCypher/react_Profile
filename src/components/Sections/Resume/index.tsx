@@ -1,6 +1,7 @@
 import {FC, memo} from 'react';
 
 import {education, experience, SectionId, skills} from '../../../data/data';
+import Image from 'next/image';
 import Cer1 from '../../../images/Cer1.jpg';
 import Cer2 from '../../../images/Cer2.png';
 import Cer3 from '../../../images/Cer3.png';
@@ -93,29 +94,28 @@ const Resume: FC = memo(() => {
                 <ResumeSection title="Certificates">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="flex justify-center">
-              <img
-                src={Cer1.src}
+              <Image src={Cer1}
                 alt="Certificate 1"
                 className="w-full max-w-md rounded-xl shadow-lg"
               />
             </div>
             <div className="flex justify-center">
-              <img
-                src={Cer2.src}
+              <Image
+                src={Cer2}
                 alt="Certificate 2"
                 className="w-full max-w-md rounded-xl shadow-lg"
               />
             </div>
             <div className="flex justify-center">
-              <img
-                src={Cer3.src}
+              <Image
+                src={Cer3}
                 alt="Certificate 3"
                 className="w-full max-w-md rounded-xl shadow-lg"
               />
             </div>
             <div className="flex justify-center">
-              <img
-                src={Cer4.src}
+              <Image
+                src={Cer4}
                 alt="Certificate 4"
                 className="w-full max-w-md rounded-xl shadow-lg"
               />
