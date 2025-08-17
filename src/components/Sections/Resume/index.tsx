@@ -1,10 +1,15 @@
 import {FC, memo} from 'react';
 
 import {education, experience, SectionId, skills} from '../../../data/data';
+import Cer1 from '../../../images/Cer1.jpg';
+import Cer2 from '../../../images/Cer2.png';
+import Cer3 from '../../../images/Cer3.png';
+import Cer4 from '../../../images/Cer4.png';   // Đảm bảo tệp Cer2.png tồn tại ở đường dẫn này
 import Section from '../../Layout/Section';
 import ResumeSection from './ResumeSection';
 import {SkillGroup} from './Skills';
 import TimelineItem from './TimelineItem';
+
 
 const Resume: FC = memo(() => {
   return (
@@ -84,6 +89,38 @@ const Resume: FC = memo(() => {
               </ul>
             </li>
           </ul>
+        </ResumeSection>
+                <ResumeSection title="Certificates">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="flex justify-center">
+              <img
+                src={Cer1.src}
+                alt="Certificate 1"
+                className="w-full max-w-md rounded-xl shadow-lg"
+              />
+            </div>
+            <div className="flex justify-center">
+              <img
+                src={Cer2.src}
+                alt="Certificate 2"
+                className="w-full max-w-md rounded-xl shadow-lg"
+              />
+            </div>
+            <div className="flex justify-center">
+              <img
+                src={Cer3.src}
+                alt="Certificate 3"
+                className="w-full max-w-md rounded-xl shadow-lg"
+              />
+            </div>
+            <div className="flex justify-center">
+              <img
+                src={Cer4.src}
+                alt="Certificate 4"
+                className="w-full max-w-md rounded-xl shadow-lg"
+              />
+            </div>
+          </div>
         </ResumeSection>
       </div>
     </Section>
