@@ -86,7 +86,7 @@ const Resume: FC = memo(() => {
                     <li>Delivered a functional and engaging platform with real-time messaging, file sharing, post interactions, and social connectivity.</li>
                   </ul>
                 </li>
-                <li><strong>Github:</strong> None</li>
+                <li><strong>Github:</strong> <a href="https://github.com/ThaiThiYenNhiBA/SSPS" target="_blank" rel="noopener noreferrer">https://github.com/ThaiThiYenNhiBA/SN.git</a></li>
               </ul>
             </li>
           </ul>
