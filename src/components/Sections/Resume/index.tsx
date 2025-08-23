@@ -56,7 +56,7 @@ const Resume: FC = memo(() => {
         <li>Integrated third-party service for handling customer information and reviews securely.</li>
       </ul>
     </li>
-    <li><strong>Github:</strong> <a href="https://github.com/DanhCypher/Nhom_kieng_new" target="_blank" rel="noopener noreferrer">https://github.com/DanhCypher/Nhom_kieng_new</a></li>
+    <li><strong>Github:</strong> <a href="https://github.com/DanhCypher/Nhom_kieng_new" target="_blank" rel="noopener noreferrer">Click Me</a></li>
   </ul>
 </li>
 
@@ -89,7 +89,7 @@ const Resume: FC = memo(() => {
         <li>Deployed the system on Vercel with a clear and maintainable project structure.</li>
       </ul>
     </li>
-    <li><strong>Github:</strong> <a href="https://github.com/DanhCypher/E_Learning" target="_blank" rel="noopener noreferrer">https://github.com/DanhCypher/E_Learning</a></li>
+    <li><strong>Github:</strong> <a href="https://github.com/DanhCypher/E_Learning" target="_blank" rel="noopener noreferrer">Click Me</a></li>
     <li><strong>Link Deploy:</strong> <a href="https://e-learning-beta-nine.vercel.app/" target="_blank" rel="noopener noreferrer">https://e-learning-beta-nine.vercel.app/</a></li>
   </ul>
             </li>
