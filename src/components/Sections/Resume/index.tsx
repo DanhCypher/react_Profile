@@ -42,23 +42,24 @@ const Resume: FC = memo(() => {
         </ResumeSection>
         <ResumeSection title='Project'>
           <ul className="list-disc pl-6">
-            <li>
-              <strong>Smart Printing Service</strong> (20/09/2024 - 06/12/2024)
-              <ul className="pl-6">
-                <li><strong>Developer (group)</strong></li>
-                <li><strong>Objective:</strong> Develop an intelligent printing system for students and administrators.</li>
-                <li><strong>Role:</strong> Built user interface and implemented features like login, printing, payments, and printer management.</li>
-                <li><strong>Tech Stack:</strong> Node.js, Express, MongoDB, HTML/CSS/JavaScript.</li>
-                <li><strong>Achievements:</strong>
-                  <ul className="pl-6">
-                    <li>Completed a fully functional printing system with login, print settings, history, and payment features.</li>
-                    <li>Developed a user-friendly interface with stable performance.</li>
-                    <li>Ensured security and 30-day file storage for students.</li>
-                  </ul>
-                </li>
-                <li><strong>Github:</strong> <a href="https://github.com/ThaiThiYenNhiBA/SSPS" target="_blank" rel="noopener noreferrer">https://github.com/ThaiThiYenNhiBA/SSPS</a></li>
-              </ul>
-            </li>
+<li>
+  <strong>Khanh Trinh Sliding Gate Motor</strong> (Individual Project Collaboration - 05/12/2024 - 25/01/2025 )
+  <ul className="pl-6">
+    <li><strong>Developer</strong></li>
+    <li><strong>Objective:</strong> Build a product showcase website for sliding gate motors, serving both customers and administrators with seamless browsing and management experiences.</li>
+    <li><strong>Role:</strong> Designed and implemented core pages, including product browsing for customers and product management for administrators.</li>
+    <li><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Node.js, Express.</li>
+    <li><strong>Achievements:</strong>
+      <ul className="pl-6">
+        <li>Delivered a user-friendly interface for customers to explore detailed product information.</li>
+        <li>Implemented efficient admin tools for adding, editing, and deleting products.</li>
+        <li>Integrated third-party service for handling customer information and reviews securely.</li>
+      </ul>
+    </li>
+    <li><strong>Github:</strong> <a href="https://github.com/DanhCypher/Nhom_kieng_new" target="_blank" rel="noopener noreferrer">https://github.com/DanhCypher/Nhom_kieng_new</a></li>
+  </ul>
+</li>
+
             <li>
               <strong>Integrating OCR and Enhancing System Functionality (Cohota)</strong> (01/07/2024 - 01/12/2024)
               <ul className="pl-6">
@@ -75,20 +76,24 @@ const Resume: FC = memo(() => {
               </ul>
             </li>
             <li>
-              <strong>Real-Time Social Network</strong> (18/09/2024 - 04/12/2024)
-              <ul className="pl-6">
-                <li><strong>Developer</strong></li>
-                <li><strong>Goal:</strong> Develop a real-time social media platform with interactive user features.</li>
-                <li><strong>Role:</strong> Built core features including authentication, messaging, posting, commenting, reactions, and friend management.</li>
-                <li><strong>Technologies:</strong> Node.js, Express, WebSocket, MongoDB, LocalStorage.</li>
-                <li><strong>Achievements:</strong>
-                  <ul className="pl-6">
-                    <li>Delivered a functional and engaging platform with real-time messaging, file sharing, post interactions, and social connectivity.</li>
-                  </ul>
-                </li>
-                <li><strong>Github:</strong> <a href="https://github.com/ThaiThiYenNhiBA/SSPS" target="_blank" rel="noopener noreferrer">https://github.com/ThaiThiYenNhiBA/SN.git</a></li>
-              </ul>
+  <strong>E_Learning</strong> (18/08/2025 - 22/08/2025)
+  <ul className="pl-6">
+    <li><strong>Developer</strong></li>
+    <li><strong>Goal:</strong> Develop an e-learning system for organizing and managing online examinations. The system enables users to register, log in, take exams, and view their results, while providing administrators with functionalities to manage users, exams, questions, and exam results.</li>
+    <li><strong>Role:</strong> Implemented authentication, exam creation, question management, and result tracking features.</li>
+    <li><strong>Technologies:</strong> Node.js, Express, MongoDB, JWT, HTML, CSS, JavaScript.</li>
+    <li><strong>Achievements:</strong>
+      <ul className="pl-6">
+        <li>Successfully developed an online exam platform following the MVC architecture.</li>
+        <li>Delivered core functionalities including user management, exam/question handling, and secure result storage.</li>
+        <li>Deployed the system on Vercel with a clear and maintainable project structure.</li>
+      </ul>
+    </li>
+    <li><strong>Github:</strong> <a href="https://github.com/DanhCypher/E_Learning" target="_blank" rel="noopener noreferrer">https://github.com/DanhCypher/E_Learning</a></li>
+    <li><strong>Link Deploy:</strong> <a href="https://e-learning-beta-nine.vercel.app/" target="_blank" rel="noopener noreferrer">https://e-learning-beta-nine.vercel.app/</a></li>
+  </ul>
             </li>
+
           </ul>
         </ResumeSection>
                 <ResumeSection title="Certificates">
