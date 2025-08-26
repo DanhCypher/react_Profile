@@ -5,7 +5,9 @@ import Image from 'next/image';
 import Cer1 from '../../../images/Cer1.jpg';
 import Cer2 from '../../../images/Cer2.png';
 import Cer3 from '../../../images/Cer3.png';
-import Cer4 from '../../../images/Cer4.png';   // Đảm bảo tệp Cer2.png tồn tại ở đường dẫn này
+import Cer4 from '../../../images/Cer4.png';
+import Cer5 from '../../../images/Cer5.png';
+import Cer6 from '../../../images/Cer6.png';   // Đảm bảo tệp Cer2.png tồn tại ở đường dẫn này
 import Section from '../../Layout/Section';
 import ResumeSection from './ResumeSection';
 import {SkillGroup} from './Skills';
@@ -122,6 +124,20 @@ const Resume: FC = memo(() => {
               <Image
                 src={Cer4}
                 alt="Certificate 4"
+                className="w-full max-w-md rounded-xl shadow-lg"
+              />
+            </div>
+            <div className="flex justify-center">
+              <Image
+                src={Cer5}
+                alt="Certificate 5"
+                className="w-full max-w-md rounded-xl shadow-lg"
+              />
+            </div>
+            <div className="flex justify-center">
+              <Image
+                src={Cer6}
+                alt="Certificate 6"
                 className="w-full max-w-md rounded-xl shadow-lg"
               />
             </div>
