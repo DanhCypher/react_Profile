@@ -7,8 +7,8 @@ import {
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
-import GithubIcon from '../components/Icon/GithubIcon';
 import FacebookIcon from '../components/Icon/FacebookIcon';
+import GithubIcon from '../components/Icon/GithubIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -41,7 +41,8 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Danh Cypher - Full Stack Software Engineer',
-  description: "Cùng khám phá hành trình của tôi trong lĩnh vực công nghệ thông tin, từ những ngày đầu học tập đến những dự án thực tế mà tôi đã tham gia.",
+  description:
+    'Cùng khám phá hành trình của tôi trong lĩnh vực công nghệ thông tin, từ những ngày đầu học tập đến những dự án thực tế mà tôi đã tham gia.',
 };
 
 /**
@@ -71,8 +72,7 @@ export const heroData: Hero = {
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a Vietnam based <strong className="text-stone-100">Full Stack Software Engineer</strong>.
       </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg"></p>
     </>
   ),
   actions: [
@@ -251,8 +251,8 @@ export const experience: TimelineItem[] = [
     title: 'FullStack NodeJS Developer',
     content: (
       <p>
-        My primary responsibility is to enhance the system's functionality by refining its performance, integrating OCR character recognition, and expanding its capability to handle
-        Matching questions effectively
+        My primary responsibility is to enhance the system's functionality by refining its performance, integrating OCR
+        character recognition, and expanding its capability to handle Matching questions effectively
       </p>
     ),
   },
@@ -305,7 +305,7 @@ export const contact: ContactSection = {
       text: 'Danh Cypher',
       href: 'https://github.com/DanhCypher',
     },
-        {
+    {
       type: ContactType.Phone,
       text: '0392395397',
     },
