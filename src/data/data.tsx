@@ -78,10 +78,12 @@ export const heroData: Hero = {
   actions: [
     {
       href: 'https://drive.google.com/file/d/1CXOUIy91Bso9xMWQ3xy7AAIO3Zu_hDV8/view?usp=sharing',
+      // fix this
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
     },
+
     {
       href: `#${SectionId.Contact}`,
       text: 'Contact',
@@ -288,7 +290,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: '',
   items: [
     {
       type: ContactType.Email,
