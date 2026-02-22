@@ -44,36 +44,39 @@ const Resume: FC = memo(() => {
         <ResumeSection title="Project">
           <ul className="list-disc pl-6">
             <li>
-              <strong>Khanh Trinh Sliding Gate Motor</strong> (Individual Project Collaboration - 05/12/2024 -
-              25/01/2025 )
+              <strong>CellphoneS Audit Admin Portal (PIX Interaction)</strong> (06/09/2025 - 10/01/2026)
               <ul className="pl-6">
                 <li>
-                  <strong>Developer</strong>
+                  <strong>Full-Stack Developer</strong>
                 </li>
                 <li>
-                  <strong>Objective:</strong> Build a product showcase website for sliding gate motors, serving both
-                  customers and administrators with seamless browsing and management experiences.
+                  <strong>Objective:</strong> Build a comprehensive administration dashboard for managing audit plans, tracking store performance, and streamlining the quality control (QC) workflows for the CellphoneS retail chain.
                 </li>
                 <li>
-                  <strong>Role:</strong> Designed and implemented core pages, including product browsing for customers
-                  and product management for administrators.
+                  <strong>Role:</strong> Developed core frontend features, focusing on plan management, complex data processing, and reporting systems.
                 </li>
                 <li>
-                  <strong>Tech Stack:</strong> HTML, CSS, JavaScript, Node.js, Express.
+                  <strong>Tech Stack:</strong> React 19, TypeScript, Vite, Tailwind CSS, Shadcn UI, Directus SDK, TanStack Query, Zustand, SheetJS
                 </li>
                 <li>
                   <strong>Achievements:</strong>
                   <ul className="pl-6">
-                    <li>Delivered a user-friendly interface for customers to explore detailed product information.</li>
-                    <li>Implemented efficient admin tools for adding, editing, and deleting products.</li>
-                    <li>Integrated third-party service for handling customer information and reviews securely.</li>
+                    <li>
+                      <strong>Advanced Plan Management:</strong> Implemented a high-performance data table with server-side filtering and bulk actions (e.g., Bulk QC Manager Status Update), enabling efficient management of thousands of audit records.
+                    </li>
+                    <li>
+                      <strong>Complex Reporting Engine:</strong> Engineered a robust Excel export feature capable of handling large datasets and dynamically grouping templates (Trade Audit, DTV, Mystery Audit), resolving critical constraints like Excel's character limits.
+                    </li>
+                    <li>
+                      <strong>Seamless Backend Integration:</strong> Integrated Directus Headless CMS using React Query for real-time data synchronization, optimistic updates, and efficient state management.
+                    </li>
+                    <li>
+                      <strong>Modern UI/UX:</strong> Designed a responsive and accessible interface using Shadcn UI and Tailwind CSS, improving the workflow experience for auditors and managers.
+                    </li>
                   </ul>
                 </li>
                 <li>
-                  <strong>Github:</strong>{' '}
-                  <a href="https://github.com/DanhCypher/Nhom_kieng_new" rel="noopener noreferrer" target="_blank">
-                    Click Me
-                  </a>
+                  <strong>Github:</strong> (Private)
                 </li>
               </ul>
             </li>
@@ -82,7 +85,7 @@ const Resume: FC = memo(() => {
               <strong>Integrating OCR and Enhancing System Functionality (Cohota)</strong> (01/07/2024 - 01/12/2024)
               <ul className="pl-6">
                 <li>
-                  <strong>Developer</strong>
+                  <strong>Full-Stack Developer</strong>
                 </li>
                 <li>
                   <strong>Objective:</strong> Integrate OCR and enhance the system for handling matching questions.
@@ -109,10 +112,10 @@ const Resume: FC = memo(() => {
               </ul>
             </li>
             <li>
-              <strong>E_Learning</strong> (18/08/2025 - 22/08/2025)
+              <strong>E_Learning (personal project)</strong> (18/08/2025 - 22/08/2025)
               <ul className="pl-6">
                 <li>
-                  <strong>Developer</strong>
+                  <strong>Full-Stack Developer</strong>
                 </li>
                 <li>
                   <strong>Goal:</strong> Develop an e-learning system for organizing and managing online examinations.

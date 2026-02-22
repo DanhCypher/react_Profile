@@ -77,7 +77,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'https://drive.google.com/file/d/1CXOUIy91Bso9xMWQ3xy7AAIO3Zu_hDV8/view?usp=sharing',
+      href: 'https://drive.google.com/file/d/1RGE9zLJzRfvvnUB25FAc0JFjyOpPuic2/view?usp=sharing',
       // fix this
       text: 'Resume',
       primary: true,
@@ -101,9 +101,9 @@ export const aboutData: About = {
 Throughout my studies, I have participated in various academic and personal projects, which have helped me refine my skills in programming, requirement analysis, system design, and user experience optimization. I strive to create innovative, efficient, and scalable solutions while maintaining a mindset of continuous learning, preparing myself for a professional working environment after graduation.`,
   aboutItems: [
     {label: 'Location', text: 'Vo Ngoc Dung Street, Dong Hoa Ward, Di An City, Binh Duong.', Icon: MapIcon},
-    {label: 'Age', text: '21', Icon: CalendarIcon},
+    {label: 'Year of birth', text: '2004', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Vietnamese', Icon: FlagIcon},
-    {label: 'Interests', text: 'read newspaper, research new technology.', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Read newspaper, research new technology.', Icon: SparklesIcon},
     {label: 'Study', text: 'Saigon International University', Icon: AcademicCapIcon},
   ],
 };
@@ -248,6 +248,20 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
+    date: '27/08/2025 - 17/01/2026',
+    location: 'PIX Interaction',
+    title: 'FullStack NodeJS Developer',
+    content: (
+      <p>
+        I was responsible for developing backend services with NodeJS, designing RESTful APIs, and structuring databases to support
+        scalable web applications. I participated in building core system modules, handling data processing logic, and implementing
+        authentication and role-based access control. In addition, I worked on debugging production issues, improving API response
+        time, and collaborating with the frontend team to integrate UI with backend services. I also contributed to writing technical
+        documentation and deploying features to the staging environment.
+      </p>
+    ),
+  },
+  {
     date: '01/07/2024 - 25/12/2024',
     location: 'Cohota',
     title: 'FullStack NodeJS Developer',
@@ -258,7 +272,9 @@ export const experience: TimelineItem[] = [
       </p>
     ),
   },
+  
 ];
+
 
 /**
  * Testimonial section
