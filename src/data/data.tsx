@@ -77,7 +77,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'https://drive.google.com/file/d/1RGE9zLJzRfvvnUB25FAc0JFjyOpPuic2/view?usp=sharing',
+      href: 'https://drive.google.com/file/d/1uc1fl_t_oCPQtWC71bqYPzYO4TQ1LwCG/view?usp=sharing',
       // fix this
       text: 'Resume',
       primary: true,
@@ -248,7 +248,7 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: '27/08/2025 - 17/01/2026',
+    date: '27/08/2025 - Now (Remote Support)',
     location: 'PIX Interaction',
     title: 'FullStack NodeJS Developer',
     content: (
