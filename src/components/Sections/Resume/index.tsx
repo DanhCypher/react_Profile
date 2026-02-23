@@ -44,7 +44,7 @@ const Resume: FC = memo(() => {
         <ResumeSection title="Project">
           <ul className="list-disc pl-6">
             <li>
-              <strong>CellphoneS Audit Admin Portal (PIX Interaction)</strong> (06/09/2025 - 10/01/2026)
+              <strong>CellphoneS Audit Admin Portal (PIX Interaction)</strong> (27/08/2025 - Now (Remote Support))
               <ul className="pl-6">
                 <li>
                   <strong>Full-Stack Developer</strong>
