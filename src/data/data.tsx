@@ -248,7 +248,7 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: '27/08/2025 - 17/01/2026',
+    date: '27/08/2025 - 26/02/2026',
     location: 'PIX Interaction',
     title: 'FullStack NodeJS Developer',
     content: (
